@@ -5,18 +5,21 @@
   </header>
   <body>
     <?php
-      //include('calc.php');
-      //test
-      require('slide_6.html');
+      require('slide_1_welcome.php');
     ?>
     
-    <br><br><br>
-    <h3>Create new html/php files for testing, and you can link them here until you are ready to integrate them into the site:</h3>
-    &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
     
-    <a href="VOGUE2.php"><h2>VOGUE2</h2></a>
-    <a href="test.html">test</a>
-    <a href="link_test.html">more testing</a>
+    <br><br><br>
+    <span style="background-color:white;"">
+      <h3>Create new html/php files for testing, and you can link them here until you are ready to integrate them into the site:</h3>
+      &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
+    
+      <a href="VOGUE2.php"><h2>VOGUE2</h2></a>
+      <br>
+      <a href="google_sign_in_VOGUE.php"><h2>signin</h2></a>
+      <br>
+      <a href="slide_6_home.php"><h2>Home</h2></a>
+    </span>
   </body>
 <html>
 

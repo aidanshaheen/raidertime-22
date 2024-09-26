@@ -1,10 +1,20 @@
-<?php
-if(isset($_POST[‘submit’])){
-	$email = $_POST[‘email’];
+<?php 
+require '/home4/ahsraid1/public_html/database/connect.php';
+	if (!$conn) {
+  		die("Connection failed: " . mysqli_connect_error());
+ 	}
+require 'slide_2_log_in.php';
+
+$yes = $_POST['submit'];
+echo $yes;
+isset($_POST[‘submit’]){
+	$email = $_POST[‘username’];
 	$pass = $_POST[‘password’];
+	echo $pass;
+	echo $email;
 }
 
-require '/home4/ahsraid1/public_html/database/connect.php';
-$sql = “UPDATE emails SET testing = $pass WHERE email = $email”;
-$update = mysqli_query($conn, $sql);
+// $sql = “UPDATE emails SET testing = $pass WHERE schoolUser = $email”;
+// //$sql = "INSERT INTO emails (email, testing) values ($email, $pass);
+// $update = mysqli_query($conn, $sql);
 ?>

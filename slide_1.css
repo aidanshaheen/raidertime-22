@@ -1,26 +1,54 @@
-.lw { font-size: 60px; }
 .welcomebox{
-  background: #16542e;
-  padding:  10px; 
-  width: 260px;
-  text-align: center;
-  text-decoration-color: white;
-  margin:  auto;
-}
+    background: #16542e;
+    padding:  1%; 
+    text-align: center;
+    text-decoration-color: white;
+    margin:  auto;
+    margin-top: 10vh !important;
+    border-radius: 20px;
+  }
+  
+  .welcomebox p{
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+  }
 
-.welcomebox p{
-  color: white;
-  text-align: center;
-}
+  h1{
+    text-shadow: -1px 1px 0 white,
+                  1px 1px 0 white,
+                  1px -1px 0 white,
+                  -1px -1px 0 white; 
+      font-weight: 450 !important;
+  }
+  h2{
+    text-shadow: -1px 1px 0 white,
+                  1px 1px 0 white,
+                  1px -1px 0 white,
+                  -1px -1px 0 white; 
+      font-weight: 450 !important;
+  }
+  
+  .btn{
+    background-color:  #8ea484ff;
+    border: 1px solid white;
+    padding:  10px;
+  }
 
-.users{
-  display:block;
-  background-color:  #8ea484ff;
-  border: 1px solid white;
-  padding:  10px;
-  width:  200px;
-  margin-bottom:  20px;
-  text-align:  center;
-  margin-left:  auto;
-  margin-right:  auto;
-}
+  .btn:hover{
+    background-color:white;
+    transition: 0.7s;
+  }
+
+  .needHelp{
+    background: #16542e;
+    padding: 5px;
+    text-align: center;
+    text-decoration-color: white;
+    margin:  auto;
+    margin-top: 0.5%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Graduate';
+    border-radius: 10px;
+  }
